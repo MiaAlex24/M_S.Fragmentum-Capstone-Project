@@ -27,6 +27,6 @@ EditorBuildSettings:
     path: Assets/Scenes/finale.unity
     guid: 16359b4c31ddb074392e9d3f678feaff
   - enabled: 1
-    path: Assets/The void.unity
+    path: Assets/Scenes/The void.unity
     guid: 04048d6736c603840afd75897e457ae6
   m_configObjects: {}
