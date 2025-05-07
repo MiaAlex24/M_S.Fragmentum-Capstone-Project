@@ -30,12 +30,16 @@ public class PlayerMovement : MonoBehaviour
     public Animator animator;
 
     public KeyCode jumpKey = KeyCode.Space;
+
+    public SFXPlayer sfx;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
 
         animator = GetComponent<Animator>();
+        sfx = GetComponent<SFXPlayer>();
+        
     }
     private void Update()
     {
@@ -67,6 +71,9 @@ public class PlayerMovement : MonoBehaviour
             readyToJump = false;
 
             Jump();
+            sfx.PlaySFX(2);
+      
+       
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
@@ -74,10 +81,13 @@ public class PlayerMovement : MonoBehaviour
         if(horizontalInput == 0 && verticalInput == 0)
         {
             animator.SetBool("isWalking", false);
+         
+       
         }
         else
         {
             animator.SetBool("isWalking", true);
+     
         }
     }
 
