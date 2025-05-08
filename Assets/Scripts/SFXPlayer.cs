@@ -12,7 +12,6 @@ public class SFXPlayer : MonoBehaviour
     void Start()
     {
 
-        audioSource = GetComponent<AudioSource>();
     }
 
     public void PlayVoiceline(int lineNum)
