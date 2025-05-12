@@ -5,18 +5,18 @@ public class SFXPlayer : MonoBehaviour
 {
     // Start is called before the first frame update
  
-    public AudioSource audioSource;
+  
     public AudioSource sfxSource;
     public AudioClip[] sfxclip;
-    public AudioClip[] voicelines;
+    public AudioSource[] audioSource;
     void Start()
     {
 
     }
 
-    public void PlayVoiceline(int lineNum)
+    public void PlayVoiceline(int audio)
     {
-        audioSource.PlayOneShot(voicelines[lineNum]);
+        audioSource[audio].Play();
     }
 
     public void PlaySFX(int sfx)
