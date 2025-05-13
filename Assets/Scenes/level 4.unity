@@ -7290,13 +7290,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bc75029f81f9246884bdc399a88697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
   sfxSource: {fileID: 74004085}
   sfxclip:
   - {fileID: 8300000, guid: bb56175abea61404bb4b60cd5279e554, type: 3}
   - {fileID: 8300000, guid: 5311e749d4534424e8ccdb0e676a45d5, type: 3}
   - {fileID: 8300000, guid: 197317d379cd65b429ff390bff9f6297, type: 3}
-  voicelines: []
+  audioSource:
+  - {fileID: 0}
 --- !u!1001 &1227582177
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
 {
   public void NextRoom(int sceneIndex)
     {
-        SceneManager.LoadScene(sceneIndex);
+        SceneManager.LoadSceneAsync(sceneIndex);
     }
 
     public void OnApplicationQuit()

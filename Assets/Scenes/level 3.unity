@@ -3627,7 +3627,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836804092}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.105241835, y: -0.005398186, z: 0.000571296, w: 0.99443185}
+  m_LocalRotation: {x: 0.10524184, y: -0.005398185, z: 0.0005712959, w: 0.9944319}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -4837,8 +4837,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1258244630}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.15134883, y: -0.005365798, z: 0.0008215838, w: 0.98846555}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.17253685, y: -0.005429052, z: 0.000950988, w: 0.9849877}
+  m_LocalPosition: {x: 0, y: 0.29663277, z: 0.10590553}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6065,13 +6065,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93bc75029f81f9246884bdc399a88697, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
   sfxSource: {fileID: 1664994055}
   sfxclip:
   - {fileID: 8300000, guid: bb56175abea61404bb4b60cd5279e554, type: 3}
   - {fileID: 8300000, guid: 5311e749d4534424e8ccdb0e676a45d5, type: 3}
   - {fileID: 8300000, guid: 197317d379cd65b429ff390bff9f6297, type: 3}
-  voicelines: []
+  audioSource:
+  - {fileID: 0}
 --- !u!1001 &1683481482
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6289,7 +6289,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1727452269}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.06121342, y: -0.005418152, z: 0.00033229165, w: 0.99810994}
+  m_LocalRotation: {x: 0.06121342, y: -0.0054181516, z: 0.00033229162, w: 0.99811}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
